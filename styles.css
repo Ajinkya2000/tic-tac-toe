@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  background: linear-gradient(to left, #00f260, #0575e6);
 }
 
 .board {
@@ -27,7 +28,7 @@ body {
 .cell {
   width: var(--cell-size);
   height: var(--cell-size);
-  border: 1px solid black;
+  border: 2px solid rgb(53, 97, 141);
   display: flex;
   justify-content: center;
   align-items: center;
